@@ -9,7 +9,7 @@ function Movie() {
             <div className="card shadow mb-4">
                 <div className="card-body">
                     <div className="table-responsive">
-                        <table className="table table-bordered" id="dataTable" width="90%" cellspacing="0">
+                        <table className="table table-bordered" id="dataTable" width="90%" cellSpacing="0">
                             <thead>
                                 <tr>
                                     <th>Titulo</th>
