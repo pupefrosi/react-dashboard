@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/app.css';
-import img from "../assets/images/logo-DH.png"
+import img from "../assets/images/logo TyY.jpg"
 
 
 function SideBar() {
@@ -18,8 +18,8 @@ function SideBar() {
 
         <li className="nav-item active">
           <a className="nav-link" href="/">
-            <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard - DH movies</span></a>
+            <i className="fas fa-seedling"></i>
+            <span>Dashboard - Tika y Yura</span></a>
         </li>
         
         <hr className="sidebar-divider"/>
