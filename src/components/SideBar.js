@@ -10,7 +10,7 @@ function SideBar() {
 
         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
           <div className="sidebar-brand-icon">
-            <img className="w-100" src={img} alt="Digital House"/>
+            <img className="w-100" src={img} alt="Tika y Yura"/>
           </div>
         </a>
         
@@ -24,25 +24,25 @@ function SideBar() {
         
         <hr className="sidebar-divider"/>
         
-        <div className="sidebar-heading">Actions</div>
+        <div className="sidebar-heading">Acciones</div>
         
         <li className="nav-item">
-          <a className="nav-link collapsed" href="/">
-            <i className="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
+          <a className="nav-link collapsed" href="https://www.instagram.com/tika.y.yura/?igshid=YmJhNjkzNzY%3D">
+          <i className="fab fa-instagram"></i>
+            <span>Instagram</span>
           </a>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link" href="/">
-            <i className="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+          <a className="nav-link" href="https://www.facebook.com/Tika.y.Yura/">
+          <i class="fab fa-facebook"></i>
+            <span>Facebook</span></a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="/">
-            <i className="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+          <a className="nav-link" href="http://localhost:3030/">
+          <i className="fas fa-seedling"></i>
+            <span>Tika y Yura</span></a>
         </li>
 
         <hr className="sidebar-divider d-none d-md-block"/>

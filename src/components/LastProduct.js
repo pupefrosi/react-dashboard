@@ -20,7 +20,7 @@ function LastProduct(){
         <div className="col-lg-6 mb-4">
             <div className="card shadow mb-4">
                 <div className="card-header py-3">
-                    <h5 className="m-0 font-weight-bold text-gray-800">Ultimo Producto</h5>
+                    <h5 className="m-0 font-weight-bold text-gray-800">último Producto</h5>
                 </div>
                 <div className="card-body">
                     <div className="text-center">
@@ -30,6 +30,7 @@ function LastProduct(){
                         <img className="card-img-top" src={`http://localhost:3030/img/products/${products[0].image}`} alt="imagen de producto"/> 
                         <div className="card-body">
                             <p className="card-text">{products[0].name}</p>
+                            <p className="card-text">{products[0].description}</p>
                         </div>
                         </div>
                         
