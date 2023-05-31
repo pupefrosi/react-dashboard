@@ -1,36 +1,36 @@
 import React,{useState,useEffect} from 'react';
 
 
-function LastProduct(){
-    const [products, setLastProduct] = useState([]);
+function LastUser(){
+    const [users, setLastUser] = useState([]);
     
     useEffect(() => {
-        fetch('http://localhost:3030/api/product/last-product')
+        fetch('http://localhost:3030/api/users/lastuser')
         .then((response) => {
             return response.json()
         })
-        .then((products) => {
-            setLastProduct(products)
+        .then((users) => {
+            setLastUser(users)
         })
     }, [])
     //console.log(products[0].image);
-    console.log(products.length);
+    console.log(users.length);
 
     return(
         <div className="col-lg-6 mb-4">
             <div className="card shadow mb-4">
                 <div className="card-header py-3">
-                    <h5 className="m-0 font-weight-bold text-gray-800">último Producto</h5>
+                    <h5 className="m-0 font-weight-bold text-gray-800">Último Usuario</h5>
                 </div>
                 <div className="card-body">
                     <div className="text-center">
                     {
-                        products.length > 0 ?                       
+                        users.length > 0 ?                       
                         <div className="card" >
-                        <img className="card-img-top" src={`http://localhost:3030/img/products/${products[0].image}`} alt="imagen de producto"/> 
+                        <img className="card-img-top" src={`http://localhost:3030/img/users/${users[0].Img}`} alt="imagen de Usuario"/> 
                         <div className="card-body">
-                            <p className="card-text">{products[0].name}</p>
-                            <p className="card-text">{products[0].description}</p>
+                            <p className="card-text">{users[0].first_name}</p>
+                            <p className="card-text">{users[0].last_name}</p>
                         </div>
                         </div>
                         
@@ -45,6 +45,4 @@ function LastProduct(){
     )
 }
 
-export default LastProduct;
-
-
+export default LastUser;

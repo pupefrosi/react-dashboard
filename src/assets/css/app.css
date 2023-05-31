@@ -4804,7 +4804,7 @@ input[type=submit].btn-block {
 .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: #f8f9fc;
+    background-color: #91795B;
     border-bottom: 1px solid #e3e6f0
 }
 
@@ -6808,7 +6808,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-    background-color: #5a5c69 !important
+    background-color: #91795B !important
 }
 
 a.bg-dark:focus,
@@ -10445,7 +10445,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #4e73df !important
+    color: #91795B !important
 }
 
 a.text-primary:focus,
@@ -10463,7 +10463,7 @@ a.text-secondary:hover {
 }
 
 .text-success {
-    color: #1cc88a !important
+    color: #91795B !important
 }
 
 a.text-success:focus,
@@ -10789,8 +10789,8 @@ a:focus {
 }
 
 .bg-gradient-secondary {
-    background-color: #858796;
-    background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
+    background-color: #91795B;
+    background-image: linear-gradient(180deg, #91795B 10%, #f8f9fc 100%);
     background-size: cover
 }
 
@@ -10924,7 +10924,7 @@ a:focus {
 }
 
 .border-left-primary {
-    border-left: .25rem solid #4e73df !important
+    border-left: .25rem solid #91795B !important
 }
 
 .border-bottom-primary {
@@ -10940,7 +10940,7 @@ a:focus {
 }
 
 .border-left-success {
-    border-left: .25rem solid #1cc88a !important
+    border-left: .25rem solid #91795B !important
 }
 
 .border-bottom-success {
